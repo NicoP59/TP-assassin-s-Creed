@@ -1,0 +1,120 @@
+
+nav {
+    background-color: #404040;
+}
+
+
+.logo {
+    height: 150px;
+}
+.altair,.ezio,.connor,.edward {
+    height:100px;
+    text-align: center;
+    padding: 12px 24px;
+    color: #fff;
+    border-radius: 40px;
+    box-shadow:0 0 0 0 #BE0000;
+    animation: battement 2s infinite cubic-bezier(.66, 0, 0, 1);
+    text-decoration: none;
+    transition: 0.8s;
+}
+.navbar li {
+    list-style: none;
+}
+.edward {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* section-1 */
+
+.photo-1 {
+width: 100%;
+}
+
+
+
+
+
+
+
+
+/* section-2 */
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    background-color: #404040;
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Keyframes */
+@keyframes battement {
+    to {
+      box-shadow: 0 0 0 30px rgba(255, 71, 84, 0);
+    }
+  }
