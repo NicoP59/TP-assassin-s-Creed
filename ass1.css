@@ -1,0 +1,76 @@
+body,
+html {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ****************header*************** */
+
+header{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(155, 155, 155);
+}
+
+.logo img{
+  height: 10vh;
+}
+
+nav {
+    margin: 2.5em;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+  }
+
+
+
+  /* **********section banniere*********** */
+
+  .pagebanniere{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+  }
+
+  .photo-assassin1 img{
+      width: 100vw;
+  }
+
+  .p-assassin{
+      font-size: 2.5em;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;   
+    }
+    .p-assassin p{
+       margin-left: 100px;
+       margin-right: 100px;
+    }
+
+    /* ***************section lorem************** */
+
+    .lorem{
+        margin: 10px;
+        display: flex;   
+    }
+
+    .p-lorem{
+        flex-direction: column;
+        align-self: center;
+        font-size: 1.5em;
+    }
+
+   
+    .img img{
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+    }
