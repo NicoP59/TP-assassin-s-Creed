@@ -4,16 +4,13 @@ html {
   margin: 0;
   padding: 0;
 }
-
-/* ****************header*************** */
-
+/* **************************header********************* */
 header {
   display: flex;
   list-style: none;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgb(155, 155, 155);
 }
 
 .logo img {
@@ -32,25 +29,8 @@ nav a {
 
 /* **********section banniere*********** */
 
-.pagebanniere {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.photo-assassin1 img {
+.photo-assassin3 img {
   width: 100vw;
-}
-
-.p-assassin {
-  font-size: 2.5em;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.p-assassin p {
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 /* ***************section lorem************** */
@@ -80,6 +60,20 @@ nav a {
   height: 500px;
   overflow: hidden;
   margin-left: 500px;
+  top: 50px;
+}
+
+/* **********************button*************** */
+.favorite {
+  width: 50vw;
+  height: 15vh;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-left: 30%;
+  font-size: 5em;
+  background-color: blue;
+  color: red;
+  cursor: pointer;
 }
 
 /* *****************footer******************** */
