@@ -3,22 +3,156 @@
     height: 850px;
 }
 
+/* section presentation */
+.presentation{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.hero {
+    background-color: #676B6A;
+    width: 50%;
+    padding: 10px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    
+}
+
 /* section 1  */
-
-
-
-
+.altair {
+    height: 450px;
+}
+.section-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px
+}
+.presentation-altair {
+    background-color: #676B6A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.btn-1 {
+    height: 40px;
+    width: 150px;
+    background-color: #376C8A;
+    border-radius: 20px;
+}
+.btn-1 a {
+    color: white;
+    text-decoration: none;
+}
+.btn-1:hover {
+    background-color: white;
+    transition: 0.8s;
+}
+.btn-1 a:hover {
+    color: #376C8A;
+}
 
 
 /* section 2 */
-
-
+.ezio {
+    height: 450px;
+}
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px
+}
+.presentation-ezio {
+    background-color: #676B6A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.btn-2 {
+    height: 40px;
+    width: 150px;
+    background-color: #BE0000;
+    border-radius: 20px;
+}
+.btn-2 a {
+    color: white;
+    text-decoration: none;
+}
+.btn-2:hover {
+    background-color: white;
+    transition: 0.8s;
+}
+.btn-2 a:hover {
+    color: #BE0000;
+}
 
 
 
 
 /* section 3 */
-
+.connor {
+    height: 450px;
+}
+.section-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px
+}
+.presentation-connor {
+    background-color: #676B6A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.btn-3 {
+    height: 40px;
+    width: 150px;
+    background-color: #AFA093;
+    border-radius: 20px;
+}
+.btn-3 a {
+    color: white;
+    text-decoration: none;
+}
+.btn-3:hover {
+    background-color: white;
+    transition: 0.8s;
+}
+.btn-3 a:hover {
+    color: #AFA093;
+}
 
 
 
@@ -28,10 +162,45 @@
 
 /* section 4 */
 .edward {
-    height: 300px;
+    height: 400px;
 }
-
-
+.section-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px
+}
+.presentation-edward {
+    background-color: #676B6A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+}
+.btn-4 {
+    height: 40px;
+    width: 150px;
+    background-color: #4A5E6C;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.btn-4 a {
+    color: white;
+    text-decoration: none;
+}
+.btn-4:hover {
+    background-color: white;
+    transition: 0.8s;
+}
+.btn-4 a:hover {
+    color: #4A5E6C;
+}
 
 
 
@@ -43,47 +212,35 @@
 /* footer */
 
 
-
 /* section logo */
+.section-logo {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-logo {
+    height: 80px;
+}
+.iconify {
+    color:#BE0000 ;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer-img */
 .footer-items {
     height: 150px;
+}
+.footer-titre h2 {
+    color: #BE0000;
+    text-decoration: #BE0000 solid 3px underline overline;
+}
+.footer-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    background-color: #404040;
 }

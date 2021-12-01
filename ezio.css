@@ -7,6 +7,21 @@ nav {
 .logo {
     height: 150px;
 }
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.lien {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
 .altair,.ezio,.connor,.edward {
     height:100px;
     text-align: center;
@@ -21,8 +36,14 @@ nav {
 .navbar li {
     list-style: none;
 }
-.edward {
-    margin-bottom: 50px;
+.navbar ul {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-direction: row;
+    flex-wrap: wrap; 
 }
 
 
@@ -33,6 +54,7 @@ nav {
 
 .photo-1 {
 width: 100%;
+margin-bottom: 50px;
 }
 
 
@@ -44,7 +66,29 @@ width: 100%;
 
 /* section-2 */
 
-
+.presentation {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.texte {
+    background-color: #676B6A;
+    width: 350px;
+   
+}
+.image-2 {
+    background-color: #676B6A;
+    width: 350px;
+    margin-top: 10px;
+}
+.image-3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 
 
@@ -57,7 +101,14 @@ footer {
     background-color: #404040;
     width: 100%;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
+button img {
+    height: 4vh;
+  }
 
 
 
