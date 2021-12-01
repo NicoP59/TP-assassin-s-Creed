@@ -9,7 +9,7 @@ document
 
 //   ************************dark mode
 
-let theme_toggler = document.querySelector("#logo-ac");
+let theme_toggler = document.querySelector("#form_button");
 
 let count = 1;
 theme_toggler.addEventListener("click", function () {
