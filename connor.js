@@ -41,3 +41,14 @@ function write_text(){
 let inter = setInterval( function() {
     write_text()
 }, 50)
+
+
+// Test button
+
+let button = document.getElementsByClassName("button")
+
+
+
+
+
+
