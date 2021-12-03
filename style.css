@@ -189,6 +189,29 @@
   color: #4a5e6c;
 }
 
+
+/* section carte  */
+
+.fragment {
+  background-color: #404040;
+  height: 450px;
+}
+.fragment h2 {
+  text-align: center;
+  color: #be0000;
+  font-size: 30px;
+  text-decoration: #be0000 solid overline underline;
+}
+.fragment a {
+  text-decoration: none;
+  color: #be0000;
+  font-size: 30px;
+  text-decoration: #be0000 solid overline underline;
+}
+.fragment a:hover {
+  color: white;
+}
+
 /* footer */
 
 /* section logo */
