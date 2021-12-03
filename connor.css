@@ -124,7 +124,9 @@ nav a {
   height: 500px;
   overflow: hidden;
 }
-
+.ac {
+  cursor: none;
+}
 /* **********************button*************** */
 .favorite {
   width: 50vw;
