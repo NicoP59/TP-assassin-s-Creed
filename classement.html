@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>classement</title>
-    <link rel="stylesheet" href="classement.css">
-</head>
-<body>
-  
-  <div id="logo">
-    <a href="index.html"
-      ><img src="img/black flag.jpg" alt="" id="logo-ac"
-    /></a>
-  </div>
-  <section class="gamesGrid"></section>
-  
-     <script src="classement.js"></script>
-</body>
+    <link rel="stylesheet" href="classement.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="Titre1">Classement Des meilleurs Assassin s'creed</h1>
+      <div class="input">
+        <div class="petittitre">
+          <h4 class="Titre2">Entré nom du votre jeux Assassin s'creed :</h4>
+        </div>
+        <input type="text" class="form-control" id="userInput" />
+        <div class="Click">
+          <button class="btn" type="button" onClick="addUserInfo()">
+            Click
+          </button>
+        </div>
+        <h2 class="Titre3">Nom Des Jeux :</h2>
+        <!-- le div qui contiendra tous les éléments de la liste -->
+        <div id="display"></div>
+      </div>
+    </div>
+    <script src="classement.js"></script>
+  </body>
 </html>
