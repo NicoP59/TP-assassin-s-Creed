@@ -189,17 +189,103 @@
   color: #4a5e6c;
 }
 
+/* section 5 */
 
+.equipe{
+  height: 400px;
+}
+.section-5 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.presentation-developpeur {
+  background-color: #676b6a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+}
+.btn-5 {
+  height: 40px;
+  width: 150px;
+  background-color: #4a5e6c;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.btn-5 a {
+  color: white;
+  text-decoration: none;
+}
+.btn-5:hover {
+  background-color: white;
+  transition: 0.8s;
+}
+.btn-5 a:hover {
+  color: #4a5e6c;
+}
+
+
+
+/* section 6 */
+.classement{
+  height: 400px;
+}
+.section-6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.presentation-classement {
+  background-color: #676b6a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+}
+.btn-6 {
+  height: 40px;
+  width: 150px;
+  background-color: #4a5e6c;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.btn-6 a {
+  color: white;
+  text-decoration: none;
+}
+.btn-6:hover {
+  background-color: white;
+  transition: 0.8s;
+}
+.btn-6 a:hover {
+  color: #4a5e6c;
+}
 /* section carte  */
 
 .fragment {
   background-color: #404040;
-  height: 450px;
+  height: 500px;
 }
 .fragment h2 {
   text-align: center;
   color: #be0000;
   font-size: 30px;
+  padding-top: 20px;
   text-decoration: #be0000 solid overline underline;
 }
 .fragment a {
