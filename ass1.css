@@ -325,4 +325,11 @@ input {
   h3{
     font-size: 1em;
   }
+  .img img {
+     width: 150%;
+     margin-right: 300px;
+    
+  }
+
+
 }
