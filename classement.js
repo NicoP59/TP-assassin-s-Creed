@@ -64,22 +64,22 @@
 // }
 
 let classement = [
-  " Assassin's Creed",
-  "Assassin's Creed II",
-  "Assassin's Creed Brotherhood",
-  "Assassin's Creed Revelations",
-  "Assassin's Creed III",
-  "Assassin's Creed III Liberation",
-  "Assassin's Creed IV Black Flag",
-  "Assassin's Creed Rogue",
-  "Assassin's Creed Unity",
-  "Assassin's Creed Syndicate",
-  "Assassin's Creed Origins",
-  "Assassin's Creed Odyssey",
-  "Assassin's Creed Valhalla",
+  // " Assassin's Creed",
+  // "Assassin's Creed II",
+  // "Assassin's Creed Brotherhood",
+  // "Assassin's Creed Revelations",
+  // "Assassin's Creed III",
+  // "Assassin's Creed III Liberation",
+  // "Assassin's Creed IV Black Flag",
+  // "Assassin's Creed Rogue",
+  // "Assassin's Creed Unity",
+  // "Assassin's Creed Syndicate",
+  // "Assassin's Creed Origins",
+  // "Assassin's Creed Odyssey",
+  // "Assassin's Creed Valhalla",
 ];
 
-console.log(classement);
+
 
 function addUserInfo() {
   let userAdd = document.getElementById("userInput").value;
